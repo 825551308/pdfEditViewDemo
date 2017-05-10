@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53E54A51EC2A0320098206A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54A41EC2A0320098206A /* main.m */; };
+		A53E54A81EC2A0320098206A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54A71EC2A0320098206A /* AppDelegate.m */; };
+		A53E54AB1EC2A0320098206A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54AA1EC2A0320098206A /* ViewController.m */; };
+		A53E54AE1EC2A0320098206A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53E54AC1EC2A0320098206A /* Main.storyboard */; };
+		A53E54B11EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A53E54AF1EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld */; };
+		A53E54B31EC2A0320098206A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53E54B21EC2A0320098206A /* Assets.xcassets */; };
+		A53E54B61EC2A0320098206A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53E54B41EC2A0320098206A /* LaunchScreen.storyboard */; };
+		A53E54C11EC2A0320098206A /* pdfEditViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54C01EC2A0320098206A /* pdfEditViewDemoTests.m */; };
+		A53E54CC1EC2A0320098206A /* pdfEditViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54CB1EC2A0320098206A /* pdfEditViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53E54BD1EC2A0320098206A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53E54981EC2A0320098206A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53E549F1EC2A0320098206A;
+			remoteInfo = pdfEditViewDemo;
+		};
+		A53E54C81EC2A0320098206A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53E54981EC2A0320098206A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53E549F1EC2A0320098206A;
+			remoteInfo = pdfEditViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53E54A01EC2A0320098206A /* pdfEditViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfEditViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53E54A41EC2A0320098206A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53E54A61EC2A0320098206A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53E54A71EC2A0320098206A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53E54A91EC2A0320098206A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A53E54AA1EC2A0320098206A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A53E54AD1EC2A0320098206A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53E54B01EC2A0320098206A /* pdfEditViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pdfEditViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		A53E54B21EC2A0320098206A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53E54B51EC2A0320098206A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53E54B71EC2A0320098206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53E54BC1EC2A0320098206A /* pdfEditViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfEditViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53E54C01EC2A0320098206A /* pdfEditViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdfEditViewDemoTests.m; sourceTree = "<group>"; };
+		A53E54C21EC2A0320098206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53E54C71EC2A0320098206A /* pdfEditViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfEditViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53E54CB1EC2A0320098206A /* pdfEditViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdfEditViewDemoUITests.m; sourceTree = "<group>"; };
+		A53E54CD1EC2A0320098206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53E549D1EC2A0320098206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54B91EC2A0320098206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54C41EC2A0320098206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53E54971EC2A0320098206A = {
+			isa = PBXGroup;
+			children = (
+				A53E54A21EC2A0320098206A /* pdfEditViewDemo */,
+				A53E54BF1EC2A0320098206A /* pdfEditViewDemoTests */,
+				A53E54CA1EC2A0320098206A /* pdfEditViewDemoUITests */,
+				A53E54A11EC2A0320098206A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53E54A11EC2A0320098206A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53E54A01EC2A0320098206A /* pdfEditViewDemo.app */,
+				A53E54BC1EC2A0320098206A /* pdfEditViewDemoTests.xctest */,
+				A53E54C71EC2A0320098206A /* pdfEditViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53E54A21EC2A0320098206A /* pdfEditViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A53E54A61EC2A0320098206A /* AppDelegate.h */,
+				A53E54A71EC2A0320098206A /* AppDelegate.m */,
+				A53E54A91EC2A0320098206A /* ViewController.h */,
+				A53E54AA1EC2A0320098206A /* ViewController.m */,
+				A53E54AC1EC2A0320098206A /* Main.storyboard */,
+				A53E54B21EC2A0320098206A /* Assets.xcassets */,
+				A53E54B41EC2A0320098206A /* LaunchScreen.storyboard */,
+				A53E54B71EC2A0320098206A /* Info.plist */,
+				A53E54AF1EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld */,
+				A53E54A31EC2A0320098206A /* Supporting Files */,
+			);
+			path = pdfEditViewDemo;
+			sourceTree = "<group>";
+		};
+		A53E54A31EC2A0320098206A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53E54A41EC2A0320098206A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53E54BF1EC2A0320098206A /* pdfEditViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53E54C01EC2A0320098206A /* pdfEditViewDemoTests.m */,
+				A53E54C21EC2A0320098206A /* Info.plist */,
+			);
+			path = pdfEditViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A53E54CA1EC2A0320098206A /* pdfEditViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53E54CB1EC2A0320098206A /* pdfEditViewDemoUITests.m */,
+				A53E54CD1EC2A0320098206A /* Info.plist */,
+			);
+			path = pdfEditViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53E549F1EC2A0320098206A /* pdfEditViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53E54D01EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemo" */;
+			buildPhases = (
+				A53E549C1EC2A0320098206A /* Sources */,
+				A53E549D1EC2A0320098206A /* Frameworks */,
+				A53E549E1EC2A0320098206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdfEditViewDemo;
+			productName = pdfEditViewDemo;
+			productReference = A53E54A01EC2A0320098206A /* pdfEditViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53E54BB1EC2A0320098206A /* pdfEditViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53E54D31EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoTests" */;
+			buildPhases = (
+				A53E54B81EC2A0320098206A /* Sources */,
+				A53E54B91EC2A0320098206A /* Frameworks */,
+				A53E54BA1EC2A0320098206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53E54BE1EC2A0320098206A /* PBXTargetDependency */,
+			);
+			name = pdfEditViewDemoTests;
+			productName = pdfEditViewDemoTests;
+			productReference = A53E54BC1EC2A0320098206A /* pdfEditViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53E54C61EC2A0320098206A /* pdfEditViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53E54D61EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoUITests" */;
+			buildPhases = (
+				A53E54C31EC2A0320098206A /* Sources */,
+				A53E54C41EC2A0320098206A /* Frameworks */,
+				A53E54C51EC2A0320098206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53E54C91EC2A0320098206A /* PBXTargetDependency */,
+			);
+			name = pdfEditViewDemoUITests;
+			productName = pdfEditViewDemoUITests;
+			productReference = A53E54C71EC2A0320098206A /* pdfEditViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53E54981EC2A0320098206A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ccs;
+				TargetAttributes = {
+					A53E549F1EC2A0320098206A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A53E54BB1EC2A0320098206A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A53E549F1EC2A0320098206A;
+					};
+					A53E54C61EC2A0320098206A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A53E549F1EC2A0320098206A;
+					};
+				};
+			};
+			buildConfigurationList = A53E549B1EC2A0320098206A /* Build configuration list for PBXProject "pdfEditViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53E54971EC2A0320098206A;
+			productRefGroup = A53E54A11EC2A0320098206A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53E549F1EC2A0320098206A /* pdfEditViewDemo */,
+				A53E54BB1EC2A0320098206A /* pdfEditViewDemoTests */,
+				A53E54C61EC2A0320098206A /* pdfEditViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53E549E1EC2A0320098206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E54B61EC2A0320098206A /* LaunchScreen.storyboard in Resources */,
+				A53E54B31EC2A0320098206A /* Assets.xcassets in Resources */,
+				A53E54AE1EC2A0320098206A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54BA1EC2A0320098206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54C51EC2A0320098206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53E549C1EC2A0320098206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E54B11EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld in Sources */,
+				A53E54AB1EC2A0320098206A /* ViewController.m in Sources */,
+				A53E54A81EC2A0320098206A /* AppDelegate.m in Sources */,
+				A53E54A51EC2A0320098206A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54B81EC2A0320098206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E54C11EC2A0320098206A /* pdfEditViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E54C31EC2A0320098206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E54CC1EC2A0320098206A /* pdfEditViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53E54BE1EC2A0320098206A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53E549F1EC2A0320098206A /* pdfEditViewDemo */;
+			targetProxy = A53E54BD1EC2A0320098206A /* PBXContainerItemProxy */;
+		};
+		A53E54C91EC2A0320098206A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53E549F1EC2A0320098206A /* pdfEditViewDemo */;
+			targetProxy = A53E54C81EC2A0320098206A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53E54AC1EC2A0320098206A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53E54AD1EC2A0320098206A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53E54B41EC2A0320098206A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53E54B51EC2A0320098206A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53E54CE1EC2A0320098206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53E54CF1EC2A0320098206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53E54D11EC2A0320098206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pdfEditViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A53E54D21EC2A0320098206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pdfEditViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A53E54D41EC2A0320098206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pdfEditViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfEditViewDemo.app/pdfEditViewDemo";
+			};
+			name = Debug;
+		};
+		A53E54D51EC2A0320098206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pdfEditViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfEditViewDemo.app/pdfEditViewDemo";
+			};
+			name = Release;
+		};
+		A53E54D71EC2A0320098206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pdfEditViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pdfEditViewDemo;
+			};
+			name = Debug;
+		};
+		A53E54D81EC2A0320098206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pdfEditViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pdfEditViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53E549B1EC2A0320098206A /* Build configuration list for PBXProject "pdfEditViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E54CE1EC2A0320098206A /* Debug */,
+				A53E54CF1EC2A0320098206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53E54D01EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E54D11EC2A0320098206A /* Debug */,
+				A53E54D21EC2A0320098206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53E54D31EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E54D41EC2A0320098206A /* Debug */,
+				A53E54D51EC2A0320098206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53E54D61EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E54D71EC2A0320098206A /* Debug */,
+				A53E54D81EC2A0320098206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A53E54AF1EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A53E54B01EC2A0320098206A /* pdfEditViewDemo.xcdatamodel */,
+			);
+			currentVersion = A53E54B01EC2A0320098206A /* pdfEditViewDemo.xcdatamodel */;
+			path = pdfEditViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A53E54981EC2A0320098206A /* Project object */;
+}
