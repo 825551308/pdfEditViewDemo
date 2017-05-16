@@ -20,6 +20,7 @@
     
     
     NSLog(@"123456999");
+    NSLog(@"我修改了20170516 23:14");
     SSJPdfEditView *pdfEditView = [SSJPdfEditView instancePdfEditView];
     CGRect fm = self.view.bounds;
     pdfEditView.frame = fm;
