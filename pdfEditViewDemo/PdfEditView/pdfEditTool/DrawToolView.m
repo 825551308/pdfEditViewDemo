@@ -135,7 +135,6 @@
 //        self.SaveBlock(@"");
 //    }
 //    [self.drawView save];
-    
     if (self.saveImageBlock) {
         self.saveImageBlock([self.drawView saveToImage]);
     }

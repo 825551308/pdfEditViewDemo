@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     SSJPdfEditView *pdfEditView = [SSJPdfEditView instancePdfEditView];
     CGRect fm = self.view.bounds;
     pdfEditView.frame = fm;
