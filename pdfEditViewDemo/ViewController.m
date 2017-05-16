@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SSJPdfEditView.h"
+#import "MergeVC.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SSJPdfEditView *pdfEditView = [SSJPdfEditView instancePdfEditView];
+    CGRect fm = self.view.bounds;
+    pdfEditView.frame = fm;
+    NSString *pdfPath = [[NSBundle mainBundle] pathForResource:@"pdfFile" ofType:@"pdf"];
+    
+    __weak ViewController *weakSelf = self;
+    [pdfEditView loadPdfWithFilePath:pdfPath mergeSuccessBlock:^(NSString *path) {
+        NSLog(@"合成后的pdf文件路径是--------:%@",path);
+        /**< 查看合成后的pdf */
+        MergeVC *mergeVC = [MergeVC new];
+        mergeVC.pdfFilePath = path;
+        [weakSelf presentViewController:mergeVC animated:YES completion:nil];
+    } finishBlock:^(NSString *nothing) {
+        /**< 点击完成批阅 */
+    }];
+    [self.view addSubview:pdfEditView];
 }
 
 - (void)didReceiveMemoryWarning {

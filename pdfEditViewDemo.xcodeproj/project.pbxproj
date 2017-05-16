@@ -16,6 +16,26 @@
 		A53E54B61EC2A0320098206A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53E54B41EC2A0320098206A /* LaunchScreen.storyboard */; };
 		A53E54C11EC2A0320098206A /* pdfEditViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54C01EC2A0320098206A /* pdfEditViewDemoTests.m */; };
 		A53E54CC1EC2A0320098206A /* pdfEditViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E54CB1EC2A0320098206A /* pdfEditViewDemoUITests.m */; };
+		A53E55011EC2A8120098206A /* pdfFile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A53E55001EC2A8120098206A /* pdfFile.pdf */; };
+		A562A20F1EC45D64008EC764 /* DrawToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A1F51EC45D64008EC764 /* DrawToolView.m */; };
+		A562A2101EC45D64008EC764 /* WQPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A1F81EC45D64008EC764 /* WQPathUtilities.m */; };
+		A562A2111EC45D64008EC764 /* WQPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A1FA1EC45D64008EC764 /* WQPDFManager.m */; };
+		A562A2121EC45D64008EC764 /* LSDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A1FC1EC45D64008EC764 /* LSDrawView.m */; };
+		A562A2131EC45D64008EC764 /* MAPMergeToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A1FE1EC45D64008EC764 /* MAPMergeToolView.m */; };
+		A562A2141EC45D64008EC764 /* PdfMergeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A2001EC45D64008EC764 /* PdfMergeManager.m */; };
+		A562A2151EC45D64008EC764 /* SSJImageViewWithRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A2021EC45D64008EC764 /* SSJImageViewWithRecognizer.m */; };
+		A562A2161EC45D64008EC764 /* LJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A2061EC45D64008EC764 /* LJBaseModel.m */; };
+		A562A2171EC45D64008EC764 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A2081EC45D64008EC764 /* NSObject+YYModel.m */; };
+		A562A2181EC45D64008EC764 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A20A1EC45D64008EC764 /* YYClassInfo.m */; };
+		A562A2191EC45D64008EC764 /* SSJPdfEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A20D1EC45D64008EC764 /* SSJPdfEditView.m */; };
+		A562A21A1EC45D64008EC764 /* SSJPdfEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A562A20E1EC45D64008EC764 /* SSJPdfEditView.xib */; };
+		A562A21E1EC45D9A008EC764 /* MergeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A562A21B1EC45D9A008EC764 /* MergeVC.xib */; };
+		A562A21F1EC45D9A008EC764 /* MergeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A562A21C1EC45D9A008EC764 /* MergeVC.m */; };
+		A5B9F4A61ECA931D008A8038 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9F4A51ECA931D008A8038 /* UIColor+Extension.m */; };
+		A5B9F4AC1ECA9571008A8038 /* mROver_icon_bc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9F4A81ECA9571008A8038 /* mROver_icon_bc@2x.png */; };
+		A5B9F4AD1ECA9571008A8038 /* mROver_icon_sx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9F4A91ECA9571008A8038 /* mROver_icon_sx@2x.png */; };
+		A5B9F4AE1ECA9571008A8038 /* mROver_icon_tj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9F4AA1ECA9571008A8038 /* mROver_icon_tj@2x.png */; };
+		A5B9F4AF1ECA9571008A8038 /* mROver_icon_wz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9F4AB1ECA9571008A8038 /* mROver_icon_wz@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +73,40 @@
 		A53E54C71EC2A0320098206A /* pdfEditViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfEditViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53E54CB1EC2A0320098206A /* pdfEditViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdfEditViewDemoUITests.m; sourceTree = "<group>"; };
 		A53E54CD1EC2A0320098206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53E55001EC2A8120098206A /* pdfFile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfFile.pdf; sourceTree = "<group>"; };
+		A562A1F41EC45D64008EC764 /* DrawToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawToolView.h; sourceTree = "<group>"; };
+		A562A1F51EC45D64008EC764 /* DrawToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawToolView.m; sourceTree = "<group>"; };
+		A562A1F71EC45D64008EC764 /* WQPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPathUtilities.h; sourceTree = "<group>"; };
+		A562A1F81EC45D64008EC764 /* WQPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPathUtilities.m; sourceTree = "<group>"; };
+		A562A1F91EC45D64008EC764 /* WQPDFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPDFManager.h; sourceTree = "<group>"; };
+		A562A1FA1EC45D64008EC764 /* WQPDFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPDFManager.m; sourceTree = "<group>"; };
+		A562A1FB1EC45D64008EC764 /* LSDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDrawView.h; sourceTree = "<group>"; };
+		A562A1FC1EC45D64008EC764 /* LSDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDrawView.m; sourceTree = "<group>"; };
+		A562A1FD1EC45D64008EC764 /* MAPMergeToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPMergeToolView.h; sourceTree = "<group>"; };
+		A562A1FE1EC45D64008EC764 /* MAPMergeToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPMergeToolView.m; sourceTree = "<group>"; };
+		A562A1FF1EC45D64008EC764 /* PdfMergeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfMergeManager.h; sourceTree = "<group>"; };
+		A562A2001EC45D64008EC764 /* PdfMergeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfMergeManager.m; sourceTree = "<group>"; };
+		A562A2011EC45D64008EC764 /* SSJImageViewWithRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJImageViewWithRecognizer.h; sourceTree = "<group>"; };
+		A562A2021EC45D64008EC764 /* SSJImageViewWithRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJImageViewWithRecognizer.m; sourceTree = "<group>"; };
+		A562A2051EC45D64008EC764 /* LJBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseModel.h; sourceTree = "<group>"; };
+		A562A2061EC45D64008EC764 /* LJBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseModel.m; sourceTree = "<group>"; };
+		A562A2071EC45D64008EC764 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		A562A2081EC45D64008EC764 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		A562A2091EC45D64008EC764 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		A562A20A1EC45D64008EC764 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		A562A20B1EC45D64008EC764 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		A562A20C1EC45D64008EC764 /* SSJPdfEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJPdfEditView.h; sourceTree = "<group>"; };
+		A562A20D1EC45D64008EC764 /* SSJPdfEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJPdfEditView.m; sourceTree = "<group>"; };
+		A562A20E1EC45D64008EC764 /* SSJPdfEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSJPdfEditView.xib; sourceTree = "<group>"; };
+		A562A21B1EC45D9A008EC764 /* MergeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MergeVC.xib; sourceTree = "<group>"; };
+		A562A21C1EC45D9A008EC764 /* MergeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVC.m; sourceTree = "<group>"; };
+		A562A21D1EC45D9A008EC764 /* MergeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVC.h; sourceTree = "<group>"; };
+		A5B9F4A41ECA931D008A8038 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		A5B9F4A51ECA931D008A8038 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		A5B9F4A81ECA9571008A8038 /* mROver_icon_bc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mROver_icon_bc@2x.png"; sourceTree = "<group>"; };
+		A5B9F4A91ECA9571008A8038 /* mROver_icon_sx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mROver_icon_sx@2x.png"; sourceTree = "<group>"; };
+		A5B9F4AA1ECA9571008A8038 /* mROver_icon_tj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mROver_icon_tj@2x.png"; sourceTree = "<group>"; };
+		A5B9F4AB1ECA9571008A8038 /* mROver_icon_wz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mROver_icon_wz@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +157,15 @@
 		A53E54A21EC2A0320098206A /* pdfEditViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A562A1F21EC45D64008EC764 /* PdfEditView */,
+				A53E55001EC2A8120098206A /* pdfFile.pdf */,
 				A53E54A61EC2A0320098206A /* AppDelegate.h */,
 				A53E54A71EC2A0320098206A /* AppDelegate.m */,
 				A53E54A91EC2A0320098206A /* ViewController.h */,
 				A53E54AA1EC2A0320098206A /* ViewController.m */,
+				A562A21D1EC45D9A008EC764 /* MergeVC.h */,
+				A562A21C1EC45D9A008EC764 /* MergeVC.m */,
+				A562A21B1EC45D9A008EC764 /* MergeVC.xib */,
 				A53E54AC1EC2A0320098206A /* Main.storyboard */,
 				A53E54B21EC2A0320098206A /* Assets.xcassets */,
 				A53E54B41EC2A0320098206A /* LaunchScreen.storyboard */,
@@ -141,6 +200,83 @@
 				A53E54CD1EC2A0320098206A /* Info.plist */,
 			);
 			path = pdfEditViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		A562A1F21EC45D64008EC764 /* PdfEditView */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9F4A71ECA9571008A8038 /* img */,
+				A562A1F31EC45D64008EC764 /* pdfEditTool */,
+				A562A20C1EC45D64008EC764 /* SSJPdfEditView.h */,
+				A562A20D1EC45D64008EC764 /* SSJPdfEditView.m */,
+				A562A20E1EC45D64008EC764 /* SSJPdfEditView.xib */,
+			);
+			path = PdfEditView;
+			sourceTree = "<group>";
+		};
+		A562A1F31EC45D64008EC764 /* pdfEditTool */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9F4A41ECA931D008A8038 /* UIColor+Extension.h */,
+				A5B9F4A51ECA931D008A8038 /* UIColor+Extension.m */,
+				A562A1F41EC45D64008EC764 /* DrawToolView.h */,
+				A562A1F51EC45D64008EC764 /* DrawToolView.m */,
+				A562A1F61EC45D64008EC764 /* imageToPdf */,
+				A562A1FB1EC45D64008EC764 /* LSDrawView.h */,
+				A562A1FC1EC45D64008EC764 /* LSDrawView.m */,
+				A562A1FD1EC45D64008EC764 /* MAPMergeToolView.h */,
+				A562A1FE1EC45D64008EC764 /* MAPMergeToolView.m */,
+				A562A1FF1EC45D64008EC764 /* PdfMergeManager.h */,
+				A562A2001EC45D64008EC764 /* PdfMergeManager.m */,
+				A562A2011EC45D64008EC764 /* SSJImageViewWithRecognizer.h */,
+				A562A2021EC45D64008EC764 /* SSJImageViewWithRecognizer.m */,
+				A562A2031EC45D64008EC764 /* view */,
+				A562A2041EC45D64008EC764 /* YYModel */,
+			);
+			path = pdfEditTool;
+			sourceTree = "<group>";
+		};
+		A562A1F61EC45D64008EC764 /* imageToPdf */ = {
+			isa = PBXGroup;
+			children = (
+				A562A1F71EC45D64008EC764 /* WQPathUtilities.h */,
+				A562A1F81EC45D64008EC764 /* WQPathUtilities.m */,
+				A562A1F91EC45D64008EC764 /* WQPDFManager.h */,
+				A562A1FA1EC45D64008EC764 /* WQPDFManager.m */,
+			);
+			path = imageToPdf;
+			sourceTree = "<group>";
+		};
+		A562A2031EC45D64008EC764 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A562A2041EC45D64008EC764 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				A562A2051EC45D64008EC764 /* LJBaseModel.h */,
+				A562A2061EC45D64008EC764 /* LJBaseModel.m */,
+				A562A2071EC45D64008EC764 /* NSObject+YYModel.h */,
+				A562A2081EC45D64008EC764 /* NSObject+YYModel.m */,
+				A562A2091EC45D64008EC764 /* YYClassInfo.h */,
+				A562A20A1EC45D64008EC764 /* YYClassInfo.m */,
+				A562A20B1EC45D64008EC764 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		A5B9F4A71ECA9571008A8038 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9F4A81ECA9571008A8038 /* mROver_icon_bc@2x.png */,
+				A5B9F4A91ECA9571008A8038 /* mROver_icon_sx@2x.png */,
+				A5B9F4AA1ECA9571008A8038 /* mROver_icon_tj@2x.png */,
+				A5B9F4AB1ECA9571008A8038 /* mROver_icon_wz@2x.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +346,7 @@
 				TargetAttributes = {
 					A53E549F1EC2A0320098206A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 73QX48Q4DP;
 					};
 					A53E54BB1EC2A0320098206A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,9 +383,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B9F4AE1ECA9571008A8038 /* mROver_icon_tj@2x.png in Resources */,
 				A53E54B61EC2A0320098206A /* LaunchScreen.storyboard in Resources */,
 				A53E54B31EC2A0320098206A /* Assets.xcassets in Resources */,
 				A53E54AE1EC2A0320098206A /* Main.storyboard in Resources */,
+				A562A21E1EC45D9A008EC764 /* MergeVC.xib in Resources */,
+				A562A21A1EC45D64008EC764 /* SSJPdfEditView.xib in Resources */,
+				A53E55011EC2A8120098206A /* pdfFile.pdf in Resources */,
+				A5B9F4AC1ECA9571008A8038 /* mROver_icon_bc@2x.png in Resources */,
+				A5B9F4AD1ECA9571008A8038 /* mROver_icon_sx@2x.png in Resources */,
+				A5B9F4AF1ECA9571008A8038 /* mROver_icon_wz@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +417,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A562A2171EC45D64008EC764 /* NSObject+YYModel.m in Sources */,
 				A53E54B11EC2A0320098206A /* pdfEditViewDemo.xcdatamodeld in Sources */,
+				A562A2111EC45D64008EC764 /* WQPDFManager.m in Sources */,
+				A562A20F1EC45D64008EC764 /* DrawToolView.m in Sources */,
+				A562A2141EC45D64008EC764 /* PdfMergeManager.m in Sources */,
+				A562A2151EC45D64008EC764 /* SSJImageViewWithRecognizer.m in Sources */,
+				A562A2181EC45D64008EC764 /* YYClassInfo.m in Sources */,
+				A5B9F4A61ECA931D008A8038 /* UIColor+Extension.m in Sources */,
+				A562A2131EC45D64008EC764 /* MAPMergeToolView.m in Sources */,
 				A53E54AB1EC2A0320098206A /* ViewController.m in Sources */,
+				A562A2101EC45D64008EC764 /* WQPathUtilities.m in Sources */,
 				A53E54A81EC2A0320098206A /* AppDelegate.m in Sources */,
 				A53E54A51EC2A0320098206A /* main.m in Sources */,
+				A562A2191EC45D64008EC764 /* SSJPdfEditView.m in Sources */,
+				A562A21F1EC45D9A008EC764 /* MergeVC.m in Sources */,
+				A562A2161EC45D64008EC764 /* LJBaseModel.m in Sources */,
+				A562A2121EC45D64008EC764 /* LSDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +574,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pdfEditViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +589,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pdfEditViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssj.pdfEditViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -500,6 +665,7 @@
 				A53E54D21EC2A0320098206A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53E54D31EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +674,7 @@
 				A53E54D51EC2A0320098206A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53E54D61EC2A0320098206A /* Build configuration list for PBXNativeTarget "pdfEditViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +683,7 @@
 				A53E54D81EC2A0320098206A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
