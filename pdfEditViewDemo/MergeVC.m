@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"大大");
     // Do any additional setup after loading the view from its nib.
     [self loadDocument:self.pdfFilePath inView:self.wbView];
 }
